@@ -1,0 +1,168 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+header a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+/*HOME */
+header{
+  background-color: #0d1430;
+  text-align: center;
+  padding: 25px 0;
+  color: antiquewhite;
+}
+header span{
+  margin: 0 15px;
+  font-weight: bold;
+}
+.hero h1{
+  font-size: 34px;
+  margin: 20px 0px;
+}
+.hero p{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.hero-box{
+  height: 250px;
+  width: 250px;
+  margin: 25px auto;
+  background-color: #99D8CA;
+  border: 20px solid #5873E2;
+  outline: 5px solid #0D1430;
+  box-shadow: 0 0 0 15px #90FFA9;
+}
+.zero{
+  display: inline-block;
+  padding: 0 10px;
+}
+.color-list p{
+  display: inline-block;
+  font-size: small;
+}
+.one{
+   background-color: #99D8CA;
+}
+.two{
+   background-color: #0D1430;
+}
+.three{
+  background-color: #90FFA9;
+}
+.four{
+  background-color: #5873E2;
+}
+.hero-container{
+  width: 660px;
+  border: 2px solid black;
+  font-size: 0;
+  margin: 0 auto;
+}
+.hero-container div{
+  height: 180px;
+  width: 200px;
+  background-color: springgreen;
+  margin: 10px;
+  display: inline-block;
+}
+.second-container{
+  width: 660px;
+  border: 2px solid black;
+  margin: 0 auto;
+  font-size: 0;
+
+}
+.second-container div{
+  height: 180px;
+  width: 200px;
+  background-color: springgreen;
+  margin: 10px;
+  border: 2px solid black;
+  display: inline-block;
+  box-sizing: border-box;
+}
+/* BLOG */
+.blog-1{
+  width: 800px;
+  margin: 10px auto;
+
+}
+.blog-1 div{
+  display: inline-block;
+  margin: 10px;
+  width: 350px;
+}
+.blog-heading{
+  padding: 2px 0;
+  color: #0d1430;
+}
+.blog-1 span{
+  font-size: smaller;
+}
+button{
+  margin: 10px 5px;
+  background-color: chartreuse;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+}
+.blog-2{
+  width: 800px;
+  margin: 10px auto;
+}
+.blog-2 div{
+  display: inline-block;
+  margin: 10px;
+  width: 350px;
+}
+.blog-2 span{
+  font-size: smaller;
+}
+article a{
+  text-decoration: none;
+  color: green;
+}
+/* Utilities class */
+.green{
+  color: green;
+}
+.center{
+  text-align: center;
+}
+.bold{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.circle{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+hr{
+  width: 700px;
+  margin: 20px auto;
+  border: 1px dotted rgb(19, 78, 138);
+}
+.pic{
+  width: 350px;
+  height: 200px;
+}
